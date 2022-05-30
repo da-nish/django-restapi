@@ -1,0 +1,13 @@
+
+URLs							method		
+
+/rest/go.json/					get			all users
+/rest/go/username.json/			get			get user
+/rest/go/username.json/			delete		delete user
+/rest/go/						post		new user   	pass-> { "username": "test", "name": "test user  ", "email": "test@gmail.com"}
+/rest/go/username.json/			put 		update user pass-> { "username": "test", "name": "test user  ", "email": "test@gmail.com"}
+
+
+
+use .json to get result in JSON format
+use .api to get result in rest api format 
